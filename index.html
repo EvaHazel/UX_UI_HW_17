@@ -36,12 +36,113 @@
               </div>
             </div>
         </header>
+       <section class="portfolio-section">
         <!--Girls Who Brunch-->
+        <div class="portfolio-img-container">
+          <img class= "portfolio-img" src="./Images/GirlsWhoBrunch.svg">
+          </div>
+          <div class="portfolio-text-container">
+            <h4 class= "portfolio-header"> Girls Who Brunch</h4>
+            <p class="portfolio-text">
+              "A Responsive Redesign"
+            </p>
+            <button class="learn-more"> Learn More </button>
+          </div>
+         </div>
+         </div>
+         <style>.res-circle {
+          /* (A) PERCENTAGE WIDTH & BORDER RADIUS */
+          width: 20%;
+          border-radius: 50%;
+          
+          /* (B) BACKGROUND COLOR */ 
+          background: #BACBBE;
+          
+          /* (C) NECESSARY TO POSITION TEXT BLOCK */
+          position: relative;
+          line-height: 0;
+        }
+        
+        /* (D) MATCH HEIGHT */
+        .res-circle::after {
+          content: "";
+          display: block;
+          padding-bottom: 100%;
+        }
+        
+        /* (E) TEXT BLOCK */
+        .circle-txt {
+          /* (E1) CENTER TEXT IN CIRCLE */
+          position: absolute;
+          bottom: 60%;
+          width: 100%;
+          text-align: center; 
+          /* (E2) THE FONT - NOT REALLY IMPORTANT */
+          font-family: Cormorant;
+          font-weight: bold;
+        }
+        .subheading {       
+          position: absolute;
+          bottom: 40%;
+          width: 100%;
+          text-align: center; 
+          /* (E2) THE FONT - NOT REALLY IMPORTANT */
+          font-family: Cormorant;
+          font-weight: regular; }
+          .learn-more {
+            position: absolute;
+          bottom: 20%;
+          width: 50%;
+          text-align: center; 
+          /* (E2) THE FONT - NOT REALLY IMPORTANT */
+          font-family: Cormorant;
+          font-weight: regular; } 
+        
+        
+        p {
+          display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+        }</style>
+        </section>
+       <!--My Responsive Circle-->
+    </head>
+    <body>
+      <div class="res-circle">
+        <div class="circle-txt">Life En Route</div>
+        <p class="subheading"> A Vanlife Mobile App</p>
+        <button class="learn-more"> Learn More </button>
+      </div>
 
         <!--Life En Route-->
-
+        <div class="portfolio-img-container">
+          <img class= "portfolio-img" src="Images/LifeEnRoute1.svg">
+          </div>
+          <div class="portfolio-text-container">
+            <h4 class= "portfolio-header"> Life En Route</h4>
+            <p class="portfolio-text">
+              "A Vanlife Travel App"
+            </p>
+            <button class="learn-more"> Learn More </button>
+          </div>
+         </div>
+         </div>
         <!--Department of Homeland Security-->
-
+        <div class="portfolio-img-container">
+          <img class= "portfolio-img" src="./Images/DHS.svg">
+          </div>
+          <div class="portfolio-text-container">
+            <h4 class= "portfolio-header"> Department of Homeland Security</h4>
+            <p class="portfolio-text">
+              "A Responsive Redesign"
+            </p>
+            <button class="learn-more"> Learn More </button>
+          </div>
+         </div>
+         </div>
+      </section>
         <!-- Footer -->
         <footer>
             <section>
